@@ -1,6 +1,9 @@
-# Merge Three Sorted Collections
+# Merge Three Sorted Arrays (Bun + TypeScript)
 
-โปรเจกต์นี้เป็น TypeScript ที่ใช้ Bun เป็น runtime และ package manager โดยมีฟังก์ชันที่ใช้ในการรวมอาร์เรย์ที่ถูกจัดเรียงสามชุดให้กลายเป็นอาร์เรย์เดียวที่เรียงลำดับอย่างมีประสิทธิภาพ
+โปรเจกต์นี้เป็น TypeScript ที่ใช้ Bun เป็น runtime และ package manager 
+เป็นการพัฒนา ฟังก์ชัน merge(collection_1, collection_2, collection_3): number[] ที่ใช้รวม 3 อาร์เรย์ที่เรียงลำดับไว้แล้ว ให้อยู่ในอาร์เรย์เดียวกัน โดย ไม่ใช้ฟังก์ชันจัดเรียง (sort)
+- collection_1 และ collection_2 ถูกเรียงลำดับ จากน้อยไปมาก (ascending order)
+- collection_3 ถูกเรียงลำดับ จากมากไปน้อย (descending order)
 
 ## Installation
 ```sh
