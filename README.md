@@ -1,15 +1,39 @@
-# primo
+# Merge Three Sorted Collections
 
-To install dependencies:
+โปรเจกต์นี้เป็น TypeScript ที่ใช้ Bun เป็น runtime และ package manager โดยมีฟังก์ชันที่ใช้ในการรวมอาร์เรย์ที่ถูกจัดเรียงสามชุดให้กลายเป็นอาร์เรย์เดียวที่เรียงลำดับอย่างมีประสิทธิภาพ
 
-```bash
+## Installation
+```sh
 bun install
 ```
 
-To run:
-
-```bash
-bun run index.ts
+## Usage
+Run the program:
+```sh
+bun run src/index.ts
 ```
 
-This project was created using `bun init` in bun v1.2.3. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## Testing
+Run tests using Bun's test runner:
+```sh
+bun test
+```
+
+## Project Structure
+```
+PRIMO/
+├── node_modules/
+├── src/
+│   ├── index.ts      # Entry point
+│   ├── merge.ts      # Merge function
+├── test/
+│   ├── merge.test.ts # Unit tests
+├── .gitignore
+├── bun.lock
+├── index.ts
+├── package.json
+├── README.md
+├── tsconfig.json
+```
+
+
